@@ -21,7 +21,7 @@ let getcalories = Math.round(calories)
         <p className={style.body}><b className={style.bodytext}>Calories :</b> {getcalories}</p>
         <p className={style.body}><b className={style.bodytext}>Ingredients :</b> {ingredients}</p>
         <div >
-        <a href={url} className={style.link} >view recipe</a>
+        <a href={url} target="_blank" className={style.link} >view recipe</a>
         </div>
       </div>
 
